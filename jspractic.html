@@ -15,8 +15,7 @@
 			<h2>Практика Java Script</h2>
 		<div>
 			<p> 01.Даны 3 инпута и кнопка. По нажатию на кнопку получите числа, стоящие в этих инпутах и запишите их сумму в четвертый инпут</p>
-			<p id="show">показать решение</p>
-			<div id="close" style="display: none;">
+			<div id="close" >
 				<input type="number" class="num" placeholder="число"  value="">
 				<input type="number" class="num" placeholder="число"  value="">
 				<input type="number" class="num" placeholder="число" value="">
@@ -28,13 +27,27 @@
 
 		<div>
 			<p>02.Дан инпут. В него вводится число. По потери фокуса найдите сумму цифр этого числа.</p>
-			<p id="show_focus">показать решение</p>
-			<div id="close_focus" style="display:none;"> 
+			<div id="close_focus"> 
 				<input type="number" placeholder="Введите число" value="" id="element">
 				<span id='result_focus'></span>
 			</div>
 		</div>
 		<div class="line"></div>
+
+		<div>
+			<p>03 Дан инпут. В него вводятся числа через запятую. По потери фокуса найдите среднее арифметическое этих чисел (сумма делить на количество).</p>
+			<input type="text" id="num03" placeholder="number">
+			<p id="result03"></p>
+		</div>
+		<div class="line"></div>
+
+		<div>
+			<p>04 Дан инпут. В него вводится ФИО через пробел. По потери фокуса запишите фамилию, имя и отчество в отдельные инпуты.</p>
+			<input type="text" id="elem_name" placeholder="введите ФИО">
+			<input type="text" class='name'>
+			<input type="text" class='name'>
+			<input type="text" class='name'>
+		</div>
 		
 
 
@@ -47,6 +60,9 @@
 
 	<script src="practic.js"></script>
 	<script src="practic02.js"></script>
+	<script src="number03.js"></script>
+	<script src="family04.js"></script>
+
 
 
 

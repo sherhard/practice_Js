@@ -1,16 +1,4 @@
-let show=document.getElementById('show');
-	show.addEventListener('click',close);
-function close(){
-	let close=document.getElementById('close');
-	if(close.style.display=="none"){
-		close.style.display='block';
-		show.style.color="red"
 
-	}else{
-		close.style.display='none';
-		show.style.color="black"
-	}
-}
 
 
 let num=document.getElementsByClassName('num');

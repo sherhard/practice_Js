@@ -1,16 +1,3 @@
-let show1=document.getElementById('show_focus');
-	show1.addEventListener('click',close_focuss);
-function close_focuss(){
-	let closee=document.getElementById('close_focus');
-	if(closee.style.display=="none"){
-		closee.style.display='block';
-		show1.style.color="red"
-
-	}else{
-		closee.style.display='none';
-		show1.style.color="black"
-	}
-}
 
 
 
