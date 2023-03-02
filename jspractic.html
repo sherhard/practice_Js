@@ -7,6 +7,7 @@
 	<style type="text/css">
 		.line{
 			border: 1px solid black;
+			margin: 5px;
 		}
 	</style>
 </head>
@@ -14,7 +15,15 @@
 	<div>
 			<h2>Практика Java Script</h2>
 		<div>
-			<p> 01.Даны 3 инпута и кнопка. По нажатию на кнопку получите числа, стоящие в этих инпутах и запишите их сумму в четвертый инпут</p>
+			<p> 01.Даны 3 инпута и кнопка. По нажатию на кнопку получите числа, стоящие в э
+
+
+
+
+
+
+
+			тих инпутах и запишите их сумму в четвертый инпут</p>
 			<div id="close" >
 				<input type="number" class="num" placeholder="число"  value="">
 				<input type="number" class="num" placeholder="число"  value="">
@@ -48,7 +57,26 @@
 			<input type="text" class='name'>
 			<input type="text" class='name'>
 		</div>
-		
+		<div class="line"></div>
+
+		<div>
+			<p>05 Дан инпут. В него вводится ФИО через пробел. ФИО вводится с маленькой буквы. Сделайте так, чтобы по потери фокуса инпутом, введенные фамилия, имя и отчество автоматически стали записанными с большой буквы (в том же инпуте).</p>
+			<input type="text" id='uppercase'>
+		</div>
+		<div class="line"></div>
+
+		<div>
+			<p>06 Дан инпут. В него вводится текст. По потери фокуса узнайте количество слов в этом тексте</p>
+			<input type="text" id="many_world">
+			<p id="many_world_result"></p>
+		</div>
+		<div class="line"></div>
+
+		<div>
+			<input type="text" id="how_many_world">
+			<p id="world_result"></p>
+		</div>
+
 
 
 
@@ -62,6 +90,9 @@
 	<script src="practic02.js"></script>
 	<script src="number03.js"></script>
 	<script src="family04.js"></script>
+	<script src="uppercase.js"></script>
+	<script src="manyworld.js"></script>
+	<script src="how_many_world.js"></script>
 
 
 
